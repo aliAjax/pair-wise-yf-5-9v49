@@ -1,0 +1,18 @@
+{
+  "name": "grayscale-upgrade-service",
+  "version": "1.0.0",
+  "description": "灰度升级服务：按批次圈定设备下发固件升级，站点容量管控，断网恢复补发，固件作废回退，月度资产对账",
+  "main": "src/index.js",
+  "scripts": {
+    "start": "node src/index.js",
+    "demo": "node demo/run-demo.js",
+    "test": "node --test test/"
+  },
+  "engines": {
+    "node": ">=18"
+  },
+  "dependencies": {
+    "better-sqlite3": "^11.3.0",
+    "express": "^4.19.2"
+  }
+}

@@ -30,6 +30,10 @@ build/
 out/
 coverage/
 .cache/
+data/
+*.db
+*.db-wal
+*.db-shm
 .env
 .env.*
 !.env.example
