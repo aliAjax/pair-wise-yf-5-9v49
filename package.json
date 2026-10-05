@@ -1,0 +1,14 @@
+{
+  "name": "firmware-rollout-service",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "description": "设备固件灰度升级服务：批次下发、站点容量排队、断网补发、固件作废回退、月底对账",
+  "scripts": {
+    "test": "node --test tests/",
+    "demo": "node demo/demo.js"
+  },
+  "engines": {
+    "node": ">=18"
+  }
+}
